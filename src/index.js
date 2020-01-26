@@ -151,7 +151,7 @@ Snake.prototype.setDirection = function (newDirection) {
         return;
     } else if (this.direction === "down" && newDirection === "up") {
         return;
-    } else if (this.direction === "left" && newDirection === "rigth") {
+    } else if (this.direction === "left" && newDirection === "right") {
         return;
     }
 
@@ -189,7 +189,7 @@ let intervalId = setInterval(function ()  {
 let directions = {
     37: "left",
     38: "up",
-    39: "rigth",
+    39: "right",
     40: "down"
 };
 
